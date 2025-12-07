@@ -22,8 +22,9 @@ while True:
 
     if choice == "1":
         sid = input("Student ID: ")
-        name = input("Student Name: ")
-        student_service.add_student(sid, name)
+        firstname=input("student first name:")
+        lastname=input("student last name:")
+        student_service.add_student(sid, firstname,lastname)
 
     elif choice == "2":
         code = input("Course Code: ")
